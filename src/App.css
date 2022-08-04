@@ -1,38 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+:root{
+
+/*Scissors Gradient from to*/
+--scissor1: hsl(39, 89%, 49%);
+--scissor2: hsl(40, 84%, 53%);
+--scissor3: #e8a61e;
+--scissor4: #c76c1d;
+/*paper gradient from to*/
+--paper1: hsl(230, 89%, 62%);
+--paper2: hsl(230, 89%, 65%);
+--paper3: #4664f8;
+--paper4:#2945c0;
+/*rock gradient from to*/
+--rock1: hsl(349, 71%, 52%);
+--rock2: hsl(349, 70%, 56%);
+--rock3: #da304d;
+--rock4: #a11738;
+/*lizar gradient from to*/
+--lizard1: hsl(261, 73%, 60%);
+--lizard2:hsl(261, 72%, 63%);
+/*cyan gradient from to*/
+--cyan1:hsl(189, 59%, 53%);
+--cyan2:hsl(189, 58%, 57%);
+
+--Dark-Text: hsl(229, 25%, 31%);
+--Score-Text: hsl(229, 64%, 46%);
+--Header-Outline: hsl(217, 16%, 45%);
+
+/*radial gradient from to*/
+--radial1: #1f3756; 
+--radian2: #141539;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100%;
+  height: 100%;
   min-height: 100vh;
+
+  background: #1f3756;
+  background: radial-gradient(top, rgba(31,55,86,1) 0%, rgba(20,21,57,1) 100%);
+  background: -webkit-radial-gradient(top, rgba(31,55,86,1) 0%, rgba(20,21,57,1) 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.App__container{
+  width: 50%;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*que aprendi
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+radial gradient
+lette spacing
+inset shadow
+multi shadow
+template grid
+
+*/
+
+@media only screen and (max-width: 600px) {
+  .App__container{
+    width: 100%;
+    padding: 1rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+    
 }

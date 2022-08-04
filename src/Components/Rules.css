@@ -1,0 +1,93 @@
+.Rules{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Rules__button{
+    color: white;
+    background-color: transparent;
+    border: 2px solid var(--Header-Outline);
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Rules__button:hover{
+    
+    color: white;
+    background-color: var(--Header-Outline);
+}
+
+.Rules__modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rules__modal__content{
+    background-color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 10px;
+}
+
+.Rules__modal__content__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Rules__rules{
+    width: 100%;
+    height: auto;
+}
+
+.Rules__close{
+        cursor: pointer;
+        opacity: 0.25;
+}
+
+.Rules__close:hover{
+
+    opacity: 1;
+    
+}
+
+
+.Rules__modal__content__head p{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--Dark-Text);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Rules{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Rules__modal{
+
+        background-color: white;
+
+    }
+}

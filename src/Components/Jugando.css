@@ -1,0 +1,91 @@
+.Jugando{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    height: 476px;
+}
+
+.Jugando__col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Jugando__col p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.9);
+    letter-spacing: 3px;
+}
+
+.Jugando__resultado{
+    display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Jugando__resultado p{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(255,255,255,0.9);
+}
+
+.Jugando__resultado button{
+    cursor: pointer;
+    color: var(--rock3);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    border: 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .Jugando__col{
+
+        grid-area: col;
+        flex-direction: column-reverse;
+    }
+
+    #col_2{
+        grid-area: col2;
+    }
+
+    .Jugando__resultado{
+
+        grid-area: res;
+        align-items: center;
+    }
+
+    .Jugando{
+        display: grid;
+        gap: 1rem;
+        height: 476px;
+        grid-template:
+        'col col2'
+        'res res';
+        }
+
+        .Jugando__resultado p{
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+    
+        .Jugando__resultado button{
+            padding: 1rem 3rem;
+        }
+        
+
+  }
+
