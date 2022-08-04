@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Frontend Mentor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Desafio - Rock, Paper, Scissors game
 
-## Available Scripts
+![Rock, Paper, Scissors game](./public/desktop-preview.jpg)
 
-In the project directory, you can run:
+Esta es la solucion para [Rock, Paper, Scissors game](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges te ayuda a mejorar tus habilidades en el Frontend.
 
-### `npm start`
+## Table of contents ✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Vision General](#vision-general-📑)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Desafio](#desafio-🏅)
 
-### `npm test`
+- [Links](#links-🔗)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Proceso](#proceso-🔨)
 
-### `npm run build`
+- [Proyecto](#proyecto-🌍)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Que aprendi](#que-aprendi-💡)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Recursos utiles](#recursos-utiles-🔔)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Autor](#autor-😎)
 
-### `npm run eject`
+## Vision General 📑
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Desafio 🏅
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+El Usuario deberia ser capaz de:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Ver el diseño de manera optioma en ambas pantallas, escritorio y mobil.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Ver todos los movimientos interactivos sobre los botones
 
-## Learn More
+- lograr los resultados del scoring
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Links 🔗
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- URL de la solucion: [Github](https://github.com/gabrielteresczuk/rock-paper-scissors) 📌
 
-### Code Splitting
+- URL del Sitio en Vivo: [Demo](https://gabrielteresczuk.github.io/rock-paper-scissors/) 👀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Proceso 🔨
 
-### Analyzing the Bundle Size
+### Proyecto 🌍
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Etiquetas semanticas de HTML 5
 
-### Making a Progressive Web App
+- Propiedades CSS propias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Flexbox
 
-### Advanced Configuration
+- CSS Grid
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- React Js
 
-### Deployment
+### Que aprendi 💡
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Uso de Radial Gradients
 
-### `npm run build` fails to minify
+```css
+background: radial-gradient(top, rgba(31,55,86,1) 0%, rgba(20,21,57,1) 100%);
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espaciado de letras
+
+```css
+letter-spacing: 1px;
+```
+
+Sombras internas
+
+```css
+box-shadow: Inset 0px 7px 1px 1px rgba(17, 0, 255, 0.2);
+```
+
+Multi sombras
+
+```css
+box-shadow: 0px 0px 0px 50px rgba(255,255,255,0.05),0px 0px 0px 100px rgba(255,255,255,0.05),0px 0px 0px 150px rgba(255,255,255,0.05);
+```
+
+Uso de Template Grids
+
+```css
+grid-template:
+'col col2'
+'res res';
+```
+
+### Recursos Utiles 🔔
+
+- [w3schools](https://www.w3schools.com/css/) - Esta pagina es escencial para aprender lo basico de CSS.
+
+- [Mdn Mozilla developer Network](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Grid_Layout) - MDN es el sitio de documentacion STANDART.
+
+## Autor 😎
+
+- Portfolio - [Portfolio](https://gabrielteresczuk.github.io/portfolio2/)
+
+- Frontend Mentor - [@gabrielteresczuk](https://www.frontendmentor.io/profile/gabrielteresczuk)
+
+- Linkedin - [in/gabriel-teresczuk](https://www.linkedin.com/in/gabriel-teresczuk/)
